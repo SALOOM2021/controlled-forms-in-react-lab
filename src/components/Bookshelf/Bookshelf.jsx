@@ -44,7 +44,7 @@ const Bookshelf = () => {
                     </form>
                 </div>
                 <div className="bookCardsDiv">
-                    {books.map((book, ) => (
+                    {books.map((book) => (
                         <div className='bookCard'>
                             <h4>Title: {book.title}</h4>
                             <p>Author: {book.author}</p>
